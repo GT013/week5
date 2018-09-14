@@ -10,7 +10,10 @@ namespace labweek5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello week5");
+            int a = int.MaxValue;
+            a *= 2;
+            Console.WriteLine(a);
+
         }
     }
 }
