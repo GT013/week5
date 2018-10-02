@@ -12,7 +12,10 @@ namespace labweek5
         {
             Console.WriteLine("Line 1");
             goto line4;
-            Console.WriteLine("Line 10");
+        line2:
+            Console.WriteLine("Line 2");
+
+            goto line9;
             Console.WriteLine("Line 3");
         line4:
             Console.WriteLine("Line 4");
@@ -21,10 +24,12 @@ namespace labweek5
             Console.WriteLine("Line 6");
             Console.WriteLine("Line 7");
             Console.WriteLine("Line 8");
-        line2:
+        line9:
 
-            Console.WriteLine("Line 2");
             Console.WriteLine("Line 9");
+            goto end;
+            Console.WriteLine("Line 10");
+        end:;
         }
     }
 }
