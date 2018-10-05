@@ -10,7 +10,14 @@ namespace labweek5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello week5");
+                Number("60030049");
+                Console.ReadLine();
+
+        void Number(string num)
+            {
+                Console.WriteLine(num);
+            }
+
         }
     }
 }
